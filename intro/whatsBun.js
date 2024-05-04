@@ -17,3 +17,12 @@ console.log(x + y);
 
 // DESIGN GOALS
 // speed, ts & jsx support, esm & commonjs compatible, web standard apis, node.js compability
+
+// HTTP server 
+Bun.serve({
+    fetch(req) {
+        const url = new URL(req.url);
+        if (url.pathname === '/') return new Response("Home Page!");
+        return new Response("404!");
+    },
+});
