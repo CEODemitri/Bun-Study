@@ -2,7 +2,7 @@
 ## Reference: [text](https://bun.sh/docs)
 
 - [ ] INTRO
-- [ ] what is bun
+- [x] what is bun
 - [ ] installation
 - [ ] quickstart
 - [ ] typescript
