@@ -3,9 +3,9 @@
 
 - [ ] INTRO
 - [x] what is bun 05.03.24
-- [ ] installation
-- [ ] quickstart
-- [ ] typescript
+- [x] installation
+- [x] quickstart
+- [x] typescript
 
 - [ ] TEMPLATING
 - [ ] bun init
